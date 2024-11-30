@@ -6,8 +6,14 @@
             "League\\Flysystem\\Cached\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ExpressionEngine/flysystem"
+        }
+    ],
     "require": {
-        "league/flysystem": "*",
+        "expressionengine/flysystem": "1.x-dev",
         "psr/cache": "^1.0.0"
     },
     "require-dev": {
